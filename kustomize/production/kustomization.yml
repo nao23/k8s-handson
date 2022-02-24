@@ -1,0 +1,7 @@
+bases:
+- ../base/
+images:
+- name: nginx
+  newTag: "1.20"
+patchesStrategicMerge:
+- ./patch-replica.yml
